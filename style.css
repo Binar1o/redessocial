@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+:root {
+    --cor-principal: #004F87;
+    --cor-secunária: #D8DF00;
+    --cor-texto: #002049;
+    --cor-fundo: #FFD1BF;
+    --font: "Silkscreen", sans-serif;
+}
