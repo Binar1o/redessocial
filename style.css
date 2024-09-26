@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 :root {
     --cor-principal: #004F87;
-    --cor-secunária: #D8DF00;
+    --cor-secundaria: #D8DF00;
     --cor-texto: #002049;
     --cor-fundo: #FFD1BF;
     --fonte: "Silkscreen", sans-serif;
@@ -16,7 +16,7 @@ body{
 }
 
 .cabecalho{
-    background-color: var(--cor-secunária);
+    background-color: var(--cor-secundaria);
     text-align: center;
 }
 
