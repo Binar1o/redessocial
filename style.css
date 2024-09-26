@@ -41,12 +41,16 @@ nav a{
 
 nav a:hover{
     text-decoration: underline;
-    transform: scale(0.90);
+    transform: scale(6.90);
     transition: transform 0.1s;
 }
 
 footer{
-    display: flex;
+    display: flex;nav a:hover {
+        text-decoration: underline;
+        transform: scale(0.90);
+        transition: transform 0.1s;
+    }
     align-items: center;
     justify-content: center;
     background-color: var(--cor-secundaria);
