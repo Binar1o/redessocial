@@ -4,5 +4,23 @@
     --cor-secunária: #D8DF00;
     --cor-texto: #002049;
     --cor-fundo: #FFD1BF;
-    --font: "Silkscreen", sans-serif;
+    --fonte: "Silkscreen", sans-serif;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--fonte);
+    font-family: var(--fonte);
+    height: 100vh;
+    margin: 0;
+}
+
+.cabecalho{
+    background-color: var(--cor-secunária);
+    text-align: center;
+}
+
+.cabecalho_titulo{
+    font-size: 2 rem;
+    color: var(--cor-texto);
 }
