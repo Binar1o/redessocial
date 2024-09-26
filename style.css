@@ -4,13 +4,13 @@
     --cor-secundaria: #D8DF00;
     --cor-texto: #002049;
     --cor-fundo: #FFD1BF;
-    --fonte: "Silkscreen", sans-serif;
+    --cor-fonte: "Silkscreen", sans-serif;
 }
 
 body{
     background-color: var(--cor-fundo);
-    color: var(--fonte);
-    font-family: var(--fonte);
+    color: var(--cor-fonte);
+    font-family: var(--cor-fonte);
     height: 100vh;
     margin: 0;
 }
@@ -21,7 +21,7 @@ body{
 }
 
 .cabecalho_titulo{
-    font-size: 2 rem;
+    font-size: 2rem;
     color: var(--cor-texto);
 
 }
