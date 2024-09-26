@@ -24,3 +24,22 @@ body{
     font-size: 2 rem;
     color: var(--cor-texto);
 }
+
+nav{
+    justify-content: center;
+    font-weight: 400;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--cor-texto);
+    margin: 0 2rem 1rem 0;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform 0.1s;;
+}
